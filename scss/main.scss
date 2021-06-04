@@ -1,5 +1,8 @@
 @import 'config', 'variables', 'banner', 'logo', 'stats';
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     background: $bg-color;
     color: $text-color;
