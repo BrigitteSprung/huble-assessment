@@ -1,0 +1,62 @@
+.stats-module {
+
+    &__text {
+        margin-bottom: 2rem;
+    }
+
+    &__heading {
+        font-size: $font-size-secondary-heading;
+        font-weight: $font-weight-bold;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    &__cta {
+        margin: 1rem auto 2rem auto;
+    }
+
+    &__btn {
+        padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    &__link {
+        border-bottom: 2px solid $accent-color-dark;
+        font-size: $font-size-small;
+        font-weight: $font-weight-bold;
+
+        &:hover {
+            color: $accent-color-dark;
+        }
+    }
+    &__post-script {
+        font-weight: $font-weight-light;
+    }
+    &__report-link {
+        border-bottom: 0.5px solid $text-color;
+        font-weight: $font-weight-light;
+
+        &:hover {
+            border-bottom: 2px solid $accent-color-dark;
+        }
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    &__stat {
+        margin: 2rem auto;
+        width: 50%;
+
+        &--heading {
+            font-size: $font-size-secondary-heading;
+            font-weight: $font-weight-bold;
+            margin-bottom: 1rem;
+        }
+
+        &--subheading {
+            font-weight: $font-weight-light;
+        }
+    }
+}
