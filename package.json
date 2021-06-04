@@ -1,6 +1,30 @@
 {
   "dependencies": {
     "axios": "^0.21.1",
-    "bootstrap": "^5.0.1"
-  }
+    "bootstrap": "^5.0.1",
+    "browserify": "^17.0.0"
+  },
+  "name": "huble-assessment",
+  "description": "Frontend Development assessment for Huble Digital",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrigitteSprung/huble-assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrigitteSprung/huble-assessment/issues"
+  },
+  "homepage": "https://github.com/BrigitteSprung/huble-assessment#readme"
 }
