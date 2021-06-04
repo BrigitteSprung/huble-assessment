@@ -36,7 +36,7 @@
 }
 
 .banner-module__text .subtitle {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
@@ -100,6 +100,10 @@ img {
   border-radius: 30px;
   background: #6F2CFF;
   color: #fff;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+}
+
+.btn:hover {
+  background-color: #4201a2;
 }
 /*# sourceMappingURL=main.css.map */
