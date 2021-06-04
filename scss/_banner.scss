@@ -37,8 +37,8 @@
         &--email {
             display: none;
         }
-        &--btn {
-            
+        &--btn:hover {
+            background-color: $accent-color-dark;
         }
     }
 
