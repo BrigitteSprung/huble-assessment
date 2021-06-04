@@ -1,0 +1,35 @@
+.banner-module {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    //overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: $banner-color;
+    padding: 1rem;
+
+    &__text {
+        .subtitle {
+            font-size: $font-size-small;
+            font-weight: $font-weight-bold;
+            margin-bottom: 1.5rem;
+        }
+        h1 {
+            font-size: $font-size-heading;
+            font-weight: $font-weight-bold;
+        }
+        &--animated {
+            color: $accent-color;
+        }
+        p {
+            font-size: $font-size-text;
+            font-weight: $font-weight-light;
+            max-width: 300px;
+        }
+    }
+
+    &__img {
+        width: 100%;
+    }
+}
