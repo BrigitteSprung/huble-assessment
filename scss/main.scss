@@ -22,3 +22,10 @@ a {
 img {
     max-width: 100%;
 }
+
+.btn {
+    border-radius: 30px;
+    background: $accent-color;
+    color: #fff;
+    padding: 1rem 2rem 1rem 2rem;
+}
