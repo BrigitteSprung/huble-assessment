@@ -80,6 +80,10 @@
   width: 100%;
 }
 
+.logo-module {
+  margin-bottom: 2rem;
+}
+
 .logo-module h2 {
   font-size: 1.125rem;
   font-weight: 500;
