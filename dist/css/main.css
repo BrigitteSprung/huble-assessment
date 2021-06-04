@@ -5,24 +5,34 @@
   padding: 0;
 }
 
-.banner-module {
+.flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner-module {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   text-align: center;
   background: #f6bed9;
   padding: 1rem;
+}
+
+.banner-module__text {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .banner-module__text .subtitle {
@@ -34,16 +44,29 @@
 .banner-module__text h1 {
   font-size: 2.3rem;
   font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 .banner-module__text--animated {
-  color: #4201a2;
+  color: #6F2CFF;
 }
 
 .banner-module__text p {
   font-size: 1.125rem;
   font-weight: 200;
   max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+.banner-module__form {
+  display: inline-block;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.banner-module__form--email {
+  display: none;
 }
 
 .banner-module__img {
@@ -71,5 +94,12 @@ a {
 
 img {
   max-width: 100%;
+}
+
+.btn {
+  border-radius: 30px;
+  background: #6F2CFF;
+  color: #fff;
+  padding: 1rem 2rem 1rem 2rem;
 }
 /*# sourceMappingURL=main.css.map */
