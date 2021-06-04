@@ -16,13 +16,13 @@ As a technical exercise, please could you recreate the first three modules of th
 ### Todo List:
 - [x] HTML structure
 - [x] SCSS General styles
-- [ ] Get images
+- [x] Get images
 - [x] Get fonts --> Had to use Montserrat instead of Sailec
 - [x] Get colours
 - [x] Banner styling
 - [x] Banner hover effects
 - [ ] Banner animation
-- [ ] Logo Styling
+- [x] Logo Styling
 - [ ] Logo hover effects
 - [ ] Logo slider for mobile
 - [ ] Stats styling
