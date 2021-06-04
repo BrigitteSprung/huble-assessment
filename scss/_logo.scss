@@ -1,0 +1,21 @@
+.logo-module {
+    h2 {
+        font-size: $font-size-text;
+        font-weight: $font-weight-bold;
+        padding: 15px;
+    }
+    &__logos {
+        flex-direction: row;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    &__link {
+        border-bottom: 2px solid $accent-color-dark;
+        font-size: $font-size-small;
+        font-weight: $font-weight-bold;
+
+        &:hover {
+            color: $accent-color-dark;
+        }
+    }
+}
