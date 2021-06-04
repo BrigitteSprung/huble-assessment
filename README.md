@@ -14,11 +14,11 @@ As a technical exercise, please could you recreate the first three modules of th
 - Please place all work on one page/template
 
 ### Todo List:
-- [ ] HTML structure
+- [x] HTML structure
 - [x] SCSS General styles
 - [ ] Get images
-- [ ] Get fonts
-- [ ] Get colours
+- [x] Get fonts --> Had to use Montserrat instead of Sailec
+- [x] Get colours
 - [ ] Banner styling
 - [ ] Banner hover effects
 - [ ] Banner animation
