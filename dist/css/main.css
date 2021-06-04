@@ -29,7 +29,6 @@
   height: 100%;
   text-align: center;
   background: #f6bed9;
-  padding: 1rem;
 }
 
 .banner-module__text {
@@ -165,6 +164,28 @@
   border-bottom: 2px solid #4201a2;
 }
 
+.stats-module__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.stats-module__stat {
+  margin: 2rem auto;
+  width: 50%;
+}
+
+.stats-module__stat--heading {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.stats-module__stat--subheading {
+  font-weight: 200;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -200,5 +221,9 @@ img {
 
 .btn:hover {
   background-color: #4201a2;
+}
+
+section {
+  padding: 15px;
 }
 /*# sourceMappingURL=main.css.map */
