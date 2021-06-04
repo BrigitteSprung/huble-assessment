@@ -77,6 +77,10 @@
   width: 100%;
 }
 
+.logo-module {
+  margin-bottom: 2rem;
+}
+
 .logo-module h2 {
   font-size: 1.125rem;
   font-weight: 500;
@@ -96,12 +100,18 @@
 }
 
 .logo-module__logo {
-  width: 33%;
+  width: 70%;
+  height: auto;
   line-height: 5rem;
 }
 
-.logo-module img {
-  max-height: 42px;
+.logo-module .carousel-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .logo-module__link {

@@ -1,4 +1,6 @@
 .logo-module {
+    margin-bottom: 2rem;
+    
     h2 {
         font-size: $font-size-text;
         font-weight: $font-weight-bold;
@@ -11,12 +13,17 @@
         justify-content: space-evenly;
     }
     &__logo {
-        width: 33%;
+        width: 70%;
+        height: auto;
         line-height: 5rem;
     }
-    img {
-        max-height: 42px;
+    .carousel-inner {
+        display: flex;
+        justify-content: center;
     }
+    // img {
+    //     max-height: 42px;
+    // }
     &__link {
         border-bottom: 2px solid $accent-color-dark;
         font-size: $font-size-small;
