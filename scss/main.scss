@@ -1,0 +1,20 @@
+@import 'config', 'variables', 'banner', 'logo', 'stats';
+
+body {
+    background: $bg-color;
+    color: $text-color;
+    height: 100vh;
+    font-family: $font-family;
+    line-height: 1;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    font-weight: $font-weight;
+}
+
+a {
+    color: $text-color;
+    text-decoration: none;
+}
+
