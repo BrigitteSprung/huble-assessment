@@ -1,0 +1,46 @@
+.banner-module {
+    flex-direction: column;
+    height: 100%;
+    //overflow: hidden;
+    text-align: center;
+    background: $banner-color;
+    padding: 1rem;
+
+    &__text {
+        flex-direction: column;
+
+        .subtitle {
+            font-size: $font-size-small;
+            font-weight: $font-weight-bold;
+            margin-bottom: 1.5rem;
+        }
+        h1 {
+            font-size: $font-size-heading;
+            font-weight: $font-weight-bold;
+            margin-bottom: 1rem;
+        }
+        &--animated {
+            color: $accent-color;
+        }
+        p {
+            font-size: $font-size-text;
+            font-weight: $font-weight-light;
+            max-width: 300px;
+            margin-bottom: 1rem;
+        }
+    }
+    &__form {
+        display: inline-block;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        width: 100%;
+        &--email {
+            display: none;
+        }
+        
+    }
+
+    &__img {
+        width: 100%;
+    }
+}
