@@ -19,8 +19,8 @@ As a technical exercise, please could you recreate the first three modules of th
 - [ ] Get images
 - [x] Get fonts --> Had to use Montserrat instead of Sailec
 - [x] Get colours
-- [ ] Banner styling
-- [ ] Banner hover effects
+- [x] Banner styling
+- [x] Banner hover effects
 - [ ] Banner animation
 - [ ] Logo Styling
 - [ ] Logo hover effects
