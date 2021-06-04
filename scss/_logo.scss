@@ -5,9 +5,17 @@
         padding: 15px;
     }
     &__logos {
+        // Need to make the default for bigger screens. The have the slider added for mobile
         flex-direction: row;
         flex-flow: row wrap;
         justify-content: space-evenly;
+    }
+    &__logo {
+        width: 33%;
+        line-height: 5rem;
+    }
+    img {
+        max-height: 42px;
     }
     &__link {
         border-bottom: 2px solid $accent-color-dark;

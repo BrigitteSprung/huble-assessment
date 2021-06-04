@@ -95,6 +95,15 @@
           justify-content: space-evenly;
 }
 
+.logo-module__logo {
+  width: 33%;
+  line-height: 5rem;
+}
+
+.logo-module img {
+  max-height: 42px;
+}
+
 .logo-module__link {
   border-bottom: 2px solid #4201a2;
   font-size: 0.9rem;
