@@ -118,7 +118,8 @@
 }
 
 .logo-module img {
-  margin: auto;
+  max-height: 90px;
+  max-width: 100%;
 }
 
 .logo-module__link {
