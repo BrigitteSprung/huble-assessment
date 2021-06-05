@@ -1,4 +1,4 @@
-@import 'config', 'variables', 'banner', 'logo', 'stats';
+@import 'config', 'variables', 'banner', 'logo', 'stats', 'responsive';
 
 html {
     scroll-behavior: smooth;
@@ -27,7 +27,7 @@ img {
 }
 
 .btn {
-    border-radius: 30px;
+    //border-radius: 30px;
     background: $accent-color;
     color: #fff;
 }
