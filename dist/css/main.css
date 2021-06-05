@@ -119,6 +119,8 @@
   border-bottom: 2px solid #4201a2;
   font-size: 0.9rem;
   font-weight: 500;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .logo-module__link:hover {
@@ -150,6 +152,8 @@
   border-bottom: 2px solid #4201a2;
   font-size: 0.9rem;
   font-weight: 500;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .stats-module__link:hover {
@@ -286,6 +290,30 @@
   }
 }
 
+.banner-module__text--animated {
+  border-right: 3px solid #6F2CFF;
+  -webkit-animation: blinkTextCursor 800ms steps(44) infinite normal;
+          animation: blinkTextCursor 800ms steps(44) infinite normal;
+}
+
+@-webkit-keyframes blinkTextCursor {
+  from {
+    border-right-color: #6F2CFF;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: #6F2CFF;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -316,6 +344,8 @@ img {
 .btn {
   background: #6F2CFF;
   color: #fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .btn:hover {

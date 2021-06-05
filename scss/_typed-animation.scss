@@ -1,0 +1,13 @@
+.banner-module__text--animated {
+    border-right: 3px solid $accent-color;
+    animation: blinkTextCursor 800ms steps(44) infinite normal;
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: $accent-color;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
