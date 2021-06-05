@@ -1,0 +1,101 @@
+@include media-md {
+    .banner-module {
+        .subtitle {
+            font-size: $font-size-small-md;
+        }
+        h1 {
+            font-size: $font-size-heading-md;
+        }
+        p {
+            font-size: $font-size-text-md;
+            max-width: 500px;
+        }
+        &__form {
+            flex-direction: row;
+            &--email {
+                display: block;
+            }
+    
+            &--btn {
+                padding: 1rem 2.5rem 1rem 2.5rem;
+                border-radius: 0 30px 30px 0;
+            }
+            
+        }
+    
+    }
+
+    .stats-module {
+
+        &__grid{
+            grid-template-columns: repeat(2, 1fr);         
+        }
+    }
+}
+
+@include media-lg {
+    .banner-module {
+        flex-direction: row;
+        //background-image: url('./img/hero-image.png');
+
+        &__text {
+            padding-left: 2rem;
+            text-align: left;
+            width: 50%;
+            .subtitle {
+                font-size: $font-size-small-lg;
+                width: 100%;
+            }
+            h1 {
+                font-size: $font-size-heading-lg;
+                width: 100%;
+            }
+            p {
+                font-size: $font-size-text-lg;
+                width: 100%;
+                max-width: 100%;
+                padding-right: 3rem;
+            }
+        }
+        &__img {
+            width: 50%;
+        }
+
+        &__form {
+            justify-content: start;
+        }
+    }
+
+    .logo-module {
+        h2 {
+            font-size: $font-size-text-lg;
+        }
+        &__link {
+            font-size: $font-size-small-lg;
+        }
+    }
+
+    .stats-module {
+        flex-direction: row;
+
+        &__text {
+            width: 50%;
+        }
+        &__heading {
+            font-size: $font-size-secondary-heading-lg;
+            max-width: 500px;
+        }
+        &__grid {
+            border-left: 1px solid $line-color;
+            width: 50%;
+        }
+    }
+}
+
+@include media-xl {
+    .banner-module {
+        &__img {
+            height:90%;
+        }
+    }
+}

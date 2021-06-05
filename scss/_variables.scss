@@ -2,6 +2,7 @@ $text-color: #1C1C1C;
 $banner-color: #f6bed9;
 $accent-color: #6F2CFF;
 $accent-color-dark: #4201a2;
+$line-color: #E0E0E0;
 $bg-color: #fff;
 
 $font-family: 'Montserrat', sans-serif;
@@ -9,9 +10,21 @@ $font-weight-light: 200;
 $font-weight-reg: 300;
 $font-weight-bold: 500;
 
+// Mobile Fonts sizes
 $font-size-small: 0.9rem;
-$font-size-text: 1.125rem;
+$font-size-text: 1rem;
 $font-size-secondary-heading: 2rem;
-$font-size-heading: 2.3rem;
+$font-size-heading: 2rem;
 
+// Tablet font sizes
+$font-size-small-md: 1rem;
+$font-size-text-md: 1.125rem;
+$font-size-secondary-heading-md: 2rem;
+$font-size-heading-md: 2.5rem;
+
+// Laptop font sizes
+$font-size-small-lg: 1.5em;
+$font-size-text-lg: 1.7rem;
+$font-size-secondary-heading-lg: 2.5rem;
+$font-size-heading-lg: 3.5rem;
 // Add text sizes
