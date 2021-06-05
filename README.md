@@ -21,11 +21,13 @@ As a technical exercise, please could you recreate the first three modules of th
 - [x] Get colours
 - [x] Banner styling
 - [x] Banner hover effects
-- [ ] Banner animation
+- [x] Banner animation
 - [x] Logo Styling
-- [ ] Logo hover effects
+- [x] Logo hover effects
 - [ ] Logo slider for mobile
-- [ ] Stats styling
-- [ ] Stats grid
+- [x] Stats styling
+- [x] Stats grid
 - [ ] BONUS: Get stats from api
-- [ ] Check responsiveness
+- [x] Check responsiveness
+- [ ] Check styling against real page
+- [ ] Reformat code for deployment
