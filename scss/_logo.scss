@@ -13,11 +13,15 @@
         justify-content: space-evenly;
     }
     &__logo {
-        width: 33%;
         line-height: 5rem;
+        justify-content: center;
+        text-align: center;
+        //background-color: $accent-color;
     }
     img {
-        max-height: 42px;
+        //margin-left: 10px;
+        max-height: 90px;
+        max-width: 100%;
     }
     &__link {
         border-bottom: 2px solid $accent-color-dark;
