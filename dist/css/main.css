@@ -73,6 +73,10 @@
   font-size: 1rem;
   height: 3.3rem;
   width: 300px;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
 }
 
 .banner-module__form--btn {
@@ -119,8 +123,10 @@
   border-bottom: 2px solid #4201a2;
   font-size: 0.9rem;
   font-weight: 500;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
 }
 
 .logo-module__link:hover {
@@ -152,8 +158,10 @@
   border-bottom: 2px solid #4201a2;
   font-size: 0.9rem;
   font-weight: 500;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
 }
 
 .stats-module__link:hover {
@@ -231,6 +239,11 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    background-image: url("../img/hero-image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #dfccff;
+    background-position: center;
   }
   .banner-module__text {
     padding-left: 2rem;
@@ -252,6 +265,7 @@
     padding-right: 3rem;
   }
   .banner-module__img {
+    visibility: hidden;
     width: 50%;
   }
   .banner-module__form {
@@ -344,8 +358,10 @@ img {
 .btn {
   background: #6F2CFF;
   color: #fff;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
 }
 
 .btn:hover {

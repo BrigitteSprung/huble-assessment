@@ -36,7 +36,12 @@
 @include media-lg {
     .banner-module {
         flex-direction: row;
-        //background-image: url('./img/hero-image.png');
+        background-image: url('../img/hero-image.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: $banner-color-lg;
+        background-position: center;
+
 
         &__text {
             padding-left: 2rem;
@@ -58,6 +63,7 @@
             }
         }
         &__img {
+            visibility: hidden;
             width: 50%;
         }
 

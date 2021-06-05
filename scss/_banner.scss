@@ -41,6 +41,8 @@
             font-size: $font-size-small-md;
             height: 3.3rem;
             width: 300px;
+
+            @include transition-ease;
         }
 
         &--btn {
