@@ -1,4 +1,4 @@
-@import 'config', 'variables', 'banner', 'logo', 'stats', 'responsive';
+@import 'config', 'variables', 'banner', 'logo', 'stats', 'responsive','typed-animation';
 
 html {
     scroll-behavior: smooth;
@@ -30,6 +30,7 @@ img {
     //border-radius: 30px;
     background: $accent-color;
     color: #fff;
+    @include transition-ease;
 }
 .btn:hover {
     background-color: $accent-color-dark;
