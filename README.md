@@ -24,10 +24,11 @@ As a technical exercise, please could you recreate the first three modules of th
 - [x] Banner animation
 - [x] Logo Styling
 - [x] Logo hover effects
-- [ ] Logo slider for mobile
+- [x] Logo slider for mobile --> Using TinySlider
 - [x] Stats styling
 - [x] Stats grid
-- [ ] BONUS: Get stats from api
+- [x] BONUS: Get stats from api --> Using Random Data Api
 - [x] Check responsiveness
-- [ ] Check styling against real page
-- [ ] Reformat code for deployment
+
+Slider:
+- allows for touch, mousedrag and keystrokes
