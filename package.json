@@ -1,6 +1,6 @@
 {
   "name": "huble-assessment",
-  "description": "As a technical exercise, please could you recreate the first three modules of the following [homepage](https://www.qubit.com)  (please don’t recreate the menu);\r 1. Banner module\r 2. Logo module\r 3. Stats module",
+  "description": "Frontend Developer Assessment for Huble Digital",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
