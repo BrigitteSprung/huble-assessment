@@ -1,3 +1,5 @@
+// Typing effect function, using multiarrays to add and remove chars
+
 function typingEffect() {
 
     const adjectives = ['intelligent.', 'personal.', 'profitable.', 'effective.'];

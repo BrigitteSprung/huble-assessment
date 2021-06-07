@@ -1,5 +1,6 @@
 const uri = "https://random-data-api.com";
 
+// Function to access the RandomData Api, using axios
 async function getRandomNumbers() {
     try {
       const data = await axios.get(uri + "/api/number/random_number?size=6");
