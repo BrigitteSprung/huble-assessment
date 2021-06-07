@@ -1,3 +1,5 @@
+// Settings for the carousel
+
 var slider = tns({
     container: '.my-slider',
     items: 1,

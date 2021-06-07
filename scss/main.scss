@@ -28,7 +28,7 @@ img {
 
 .btn {
     //border-radius: 30px;
-    background: $accent-color;
+    background-color: $accent-color;
     color: #fff;
     @include transition-ease;
 }
