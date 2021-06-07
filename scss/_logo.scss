@@ -7,7 +7,7 @@
         padding: 15px;
     }
     &__logos {
-        // Need to make the default for bigger screens. The have the slider added for mobile
+        // Used as default incase the carousel does not work
         flex-direction: row;
         flex-flow: row wrap;
         justify-content: space-evenly;
@@ -27,7 +27,6 @@
         border-bottom: 2px solid $accent-color-dark;
         font-size: $font-size-small;
         font-weight: $font-weight-bold;
-        @include transition-ease;
 
         &:hover {
             color: $accent-color-dark;
